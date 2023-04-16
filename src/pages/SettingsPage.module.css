@@ -1,0 +1,65 @@
+.settingsPageChild {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightgray-100);
+  width: 430px;
+  height: 174px;
+}
+.backButtonIcon {
+  position: absolute;
+  top: 22.45px;
+  left: 18.49px;
+  width: 30.52px;
+  height: 22.09px;
+  cursor: pointer;
+}
+.eyeCatchingButton,
+.eyeCatchingButton1,
+.eyeCatchingButton2,
+.hovertrue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.hovertrue {
+  cursor: pointer;
+}
+.eyeCatchingButton {
+  top: 528px;
+}
+.eyeCatchingButton,
+.eyeCatchingButton1,
+.eyeCatchingButton2 {
+  position: absolute;
+  left: 50px;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  padding: var(--padding-base);
+}
+.eyeCatchingButton1 {
+  top: 735px;
+}
+.eyeCatchingButton2 {
+  top: 291px;
+}
+.settings {
+  position: absolute;
+  top: 33px;
+  left: 158px;
+  line-height: 100%;
+  font-weight: 800;
+}
+.settingsPage {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 932px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-roboto);
+}

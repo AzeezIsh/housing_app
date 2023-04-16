@@ -1,0 +1,127 @@
+.signUpPageChild {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightgray-100);
+  width: 430px;
+  height: 174px;
+}
+.getIt {
+  position: relative;
+  line-height: 100%;
+}
+.button {
+  border-radius: 999px;
+  background-color: rgba(53, 79, 82, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 11px 18px;
+  align-items: center;
+  justify-content: center;
+}
+.hovertrue {
+  cursor: pointer;
+}
+.smallButton {
+  position: absolute;
+  top: 0;
+  left: 320px;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-lato);
+}
+.signUpPageItem {
+  position: absolute;
+  top: 334px;
+  left: 27px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightgray-200);
+  width: 376px;
+  height: 265px;
+}
+.frameChild {
+  top: 0;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+}
+.frameItem {
+  top: 78px;
+}
+.frameInner {
+  top: 156px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 370px;
+  left: 48px;
+}
+.eyeCatchingButton,
+.hovertrue1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.hovertrue1 {
+  cursor: pointer;
+}
+.eyeCatchingButton {
+  position: absolute;
+  top: 778px;
+  left: 50px;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  padding: var(--padding-base);
+}
+.backButtonIcon {
+  position: absolute;
+  top: 22.45px;
+  left: 18.49px;
+  width: 30.52px;
+  height: 22.09px;
+  cursor: pointer;
+}
+.pleaseSignUp {
+  position: absolute;
+  top: 275px;
+  left: 66px;
+  font-size: 15px;
+  display: inline-block;
+  color: var(--color-lightgray-300);
+  text-align: center;
+  width: 293px;
+  height: 288px;
+}
+.signUp {
+  position: absolute;
+  top: 43px;
+  left: 151px;
+  font-size: var(--font-size-11xl);
+  line-height: 100%;
+  font-weight: 800;
+  color: var(--color-darkslategray);
+}
+.signUpPage {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 932px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

@@ -1,0 +1,80 @@
+.houses1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 930px;
+  object-fit: cover;
+}
+.openingPageChild,
+.openingPageItem {
+  position: absolute;
+  top: 612px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 363px;
+}
+.openingPageItem {
+  top: -60px;
+  height: 174px;
+}
+.button {
+  cursor: pointer;
+}
+.eyeCatchingButton,
+.hoverfalse,
+.hovertrue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.eyeCatchingButton {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  padding: var(--padding-base);
+}
+.hoverfalse {
+  cursor: pointer;
+}
+.eyeCatchingButtonParent {
+  position: absolute;
+  top: 704px;
+  left: 49px;
+  width: 332px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.welcomeToThe {
+  margin: 0;
+}
+.welcomeToTheContainer {
+  position: absolute;
+  top: 13px;
+  left: 68px;
+  display: inline-block;
+  width: 293px;
+  height: 288px;
+}
+.openingPage {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 932px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightgray-300);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 420px) {
+  .openingPage {
+    display: flex;
+    width: 500px;
+  }
+}

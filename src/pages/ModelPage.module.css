@@ -1,0 +1,101 @@
+.modelPageChild {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightgray-100);
+  width: 430px;
+  height: 174px;
+}
+.presentHousePrice {
+  position: absolute;
+  top: 46px;
+  left: 57px;
+  line-height: 100%;
+  font-weight: 800;
+}
+.backButtonIcon {
+  position: absolute;
+  top: 22.45px;
+  left: 18.49px;
+  width: 30.52px;
+  height: 22.09px;
+  cursor: pointer;
+}
+.lineChartIcon {
+  position: absolute;
+  top: 25.5px;
+  left: 46px;
+  width: 320px;
+  height: 515px;
+}
+.janFebMar {
+  position: absolute;
+  top: 546px;
+  left: 34px;
+  font-size: 16px;
+  letter-spacing: 1.15px;
+  line-height: 24px;
+}
+.div {
+  top: 423px;
+}
+.div,
+.div1,
+.div2,
+.div3 {
+  position: absolute;
+  left: 6px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 55px;
+  height: 28px;
+}
+.div1 {
+  top: 319px;
+}
+.div2 {
+  top: 216px;
+}
+.div3 {
+  top: 114px;
+}
+.currentAvgPriceContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.currentAvgPriceContainer {
+  position: absolute;
+  top: 582px;
+  left: 136px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 139px;
+  height: 30px;
+}
+.lineChartParent {
+  position: absolute;
+  top: 217px;
+  left: 9px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightgray-200);
+  width: 411px;
+  height: 627px;
+  font-size: var(--font-size-3xs);
+  color: var(--color-lightgray-300);
+}
+.modelPage {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 932px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-roboto);
+}
