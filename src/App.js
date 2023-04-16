@@ -1,13 +1,14 @@
 import React from 'react';
-import neighborhood from './assets/neighborhood.jpeg'
+import neighborhood from './assets/neighborhood.jpeg';
+import './css/AboutUs.css';
 
 function App() {
   return (
-    <div>
+    <div className="main-div">
       <h1>
         This is a Test!
       </h1>
-      <img src={neighborhood} alt='neighborhood'></img>
+      
     </div>
   )
 }
