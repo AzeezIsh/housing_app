@@ -1,0 +1,88 @@
+.signUpPageChild {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightgray-100);
+  width: 430px;
+  height: 174px;
+}
+.hovertrue {
+  cursor: pointer;
+}
+.smallButton {
+  position: absolute;
+  top: 0;
+  left: 327px;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+.signUpPageItem {
+  position: absolute;
+  top: 334px;
+  left: 27px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightgray-200);
+  width: 376px;
+  height: 265px;
+}
+.frameChild {
+  top: 0;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+}
+.frameItem {
+  top: 78px;
+}
+.frameInner {
+  top: 156px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 370px;
+  left: 48px;
+}
+.eyeCatchingButton,
+.hovertrue1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.hovertrue1 {
+  cursor: pointer;
+}
+.eyeCatchingButton {
+  position: absolute;
+  top: 778px;
+  left: 50px;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  padding: var(--padding-base);
+}
+.backButtonIcon {
+  position: absolute;
+  top: 22.45px;
+  left: 18.49px;
+  width: 30.52px;
+  height: 22.09px;
+  cursor: pointer;
+}
+.signUpPage {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 932px;
+  overflow: hidden;
+}

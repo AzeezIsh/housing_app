@@ -1,0 +1,78 @@
+.loginPageChild,
+.loginPageItem {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightgray-100);
+  width: 430px;
+  height: 174px;
+}
+.loginPageItem {
+  top: 251px;
+  left: 27px;
+  background-color: var(--color-lightgray-200);
+  width: 376px;
+  height: 430px;
+}
+.loginPageInner,
+.rectangleTextfield {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 448px;
+  left: 48px;
+}
+.rectangleTextfield {
+  top: 544px;
+}
+.eyeCatchingButton,
+.hovertrue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.hovertrue {
+  cursor: pointer;
+}
+.eyeCatchingButton {
+  position: absolute;
+  top: 778px;
+  left: 50px;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  padding: var(--padding-base);
+}
+.backButtonIcon {
+  position: absolute;
+  top: 22.45px;
+  left: 18.49px;
+  width: 30.52px;
+  height: 22.09px;
+  cursor: pointer;
+}
+.hovertrue1 {
+  cursor: pointer;
+}
+.smallButton {
+  position: absolute;
+  top: 251px;
+  left: 264px;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+.loginPage {
+  justify-content: center;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 932px;
+  overflow: hidden;
+  align-items: center;
+}

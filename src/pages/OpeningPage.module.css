@@ -1,0 +1,65 @@
+.houses1 {
+  position: absolute;
+  top: -323px;
+  left: -409px;
+  background-color: #6e7071;
+  width: 942px;
+  height: 1228px;
+}
+.openingPageChild,
+.openingPageItem {
+  position: absolute;
+  top: 612px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 363px;
+}
+.openingPageItem {
+  top: -60px;
+  height: 174px;
+}
+.button {
+  cursor: pointer;
+}
+.eyeCatchingButton,
+.hoverfalse,
+.hovertrue {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.eyeCatchingButton {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  padding: var(--padding-base);
+}
+.hoverfalse {
+  cursor: pointer;
+}
+.eyeCatchingButtonParent {
+  position: absolute;
+  top: 704px;
+  left: 49px;
+  width: 332px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.openingPage {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 932px;
+  overflow: hidden;
+}
+@media screen and (max-width: 420px) {
+  .openingPage {
+    display: flex;
+    width: 500px;
+  }
+}

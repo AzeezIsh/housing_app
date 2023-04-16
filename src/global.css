@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Colors */
+  --color-darkslategray: #2f3e46;
+  --color-lightgray-100: #cad2c5;
+  --color-lightgray-200: rgba(202, 210, 197, 0.25);
+
+  /* Paddings */
+  --padding-base: 16px;
+
+  /* border radiuses */
+  --br-8xs: 5px;
+  --br-31xl: 50px;
+}
