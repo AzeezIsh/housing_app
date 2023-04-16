@@ -16,7 +16,11 @@ const OpeningPage = () => {
 
   return (
     <div className={styles.openingPage}>
-      <div className={styles.houses1} />
+      <img
+        className={styles.houses1Icon}
+        alt="sunrise"
+        src="/houses-1@3x.png"
+      />
       <div className={styles.openingPageChild} />
       <div className={styles.openingPageItem} />
       <div className={styles.eyeCatchingButtonParent}>
@@ -50,6 +54,19 @@ const OpeningPage = () => {
           </div>
         </div>
       </div>
+      <b className={styles.welcomeToTheContainer}>
+        <p className={styles.welcomeToThe}>
+          Welcome to the NAMTAF housing app!
+        </p>
+        <p className={styles.welcomeToThe}>
+          Here you can check current, past, and future house prices in the
+          Atlanta area.
+        </p>
+        <p className={styles.welcomeToThe}>
+          Click Get Started if you are new to the app or Login to sign in to
+          your existing account.
+        </p>
+      </b>
     </div>
   );
 };

@@ -1,10 +1,10 @@
-.houses1 {
+.houses1Icon {
   position: absolute;
-  top: -323px;
-  left: -409px;
-  background-color: #6e7071;
-  width: 942px;
-  height: 1228px;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 930px;
+  object-fit: cover;
 }
 .openingPageChild,
 .openingPageItem {
@@ -50,12 +50,27 @@
   align-items: center;
   justify-content: flex-start;
 }
+.welcomeToThe {
+  margin: 0;
+}
+.welcomeToTheContainer {
+  position: absolute;
+  top: 13px;
+  left: 68px;
+  display: inline-block;
+  width: 293px;
+  height: 288px;
+}
 .openingPage {
   position: relative;
   background-color: var(--color-darkslategray);
   width: 430px;
   height: 932px;
   overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightgray-300);
+  font-family: var(--font-roboto);
 }
 @media screen and (max-width: 420px) {
   .openingPage {

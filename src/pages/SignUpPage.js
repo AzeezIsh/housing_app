@@ -43,7 +43,7 @@ const SignUpPage = () => {
           label="Username"
           placeholder="Username"
           size="medium"
-          margin="dense"
+          margin="none"
         />
         <TextField
           className={styles.frameItem}
@@ -63,7 +63,7 @@ const SignUpPage = () => {
           variant="filled"
           type="text"
           label="Password"
-          placeholder="Email"
+          placeholder="Password"
           size="medium"
           margin="none"
         />
@@ -86,6 +86,9 @@ const SignUpPage = () => {
         src="/back-button1.svg"
         onClick={onBackButtonIconClick}
       />
+      <b className={styles.pleaseSignUp}>
+        Please sign up for an account with a valid email, username, and password
+      </b>
     </div>
   );
 };

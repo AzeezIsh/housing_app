@@ -67,12 +67,25 @@
   align-items: center;
   justify-content: center;
 }
+.email {
+  color: var(--color-lightgray-100);
+}
+.logInUsingContainer {
+  position: absolute;
+  top: 335px;
+  left: 92px;
+  display: inline-block;
+  width: 153px;
+  height: 95px;
+}
 .loginPage {
-  justify-content: center;
   position: relative;
   background-color: var(--color-darkslategray);
   width: 430px;
   height: 932px;
   overflow: hidden;
-  align-items: center;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
 }

@@ -73,6 +73,12 @@ const LoginPage = () => {
           Sign up
         </Button>
       </div>
+      <div className={styles.logInUsingContainer}>
+        <span>{`Log in using your `}</span>
+        <span className={styles.email}>Email</span>
+        <span>{` and `}</span>
+        <span className={styles.email}>Password</span>
+      </div>
     </div>
   );
 };

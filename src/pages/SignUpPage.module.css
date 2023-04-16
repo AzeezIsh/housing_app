@@ -79,10 +79,22 @@
   height: 22.09px;
   cursor: pointer;
 }
+.pleaseSignUp {
+  position: absolute;
+  top: 275px;
+  left: 66px;
+  display: inline-block;
+  width: 293px;
+  height: 288px;
+}
 .signUpPage {
   position: relative;
   background-color: var(--color-darkslategray);
   width: 430px;
   height: 932px;
   overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+  color: var(--color-lightgray-300);
+  font-family: var(--font-roboto);
 }
