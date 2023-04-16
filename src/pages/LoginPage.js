@@ -7,8 +7,8 @@ const LoginPage = () => {
   const navigate = useNavigate();
 
   const onHovertrueContainerClick = useCallback(() => {
-    // Please sync "Home page" to the project
-  }, []);
+    navigate("/home-page");
+  }, [navigate]);
 
   const onBackButtonIconClick = useCallback(() => {
     navigate("/");
@@ -49,7 +49,7 @@ const LoginPage = () => {
           <Button
             sx={{ width: 300 }}
             variant="contained"
-            color="primary"
+            color="error"
             endIcon={<Icon>arrow_forward_sharp</Icon>}
           >
             Login
@@ -79,6 +79,7 @@ const LoginPage = () => {
         <span>{` and `}</span>
         <span className={styles.email}>Password</span>
       </div>
+      <div className={styles.login}>Login</div>
     </div>
   );
 };

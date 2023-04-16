@@ -7,13 +7,27 @@
   width: 430px;
   height: 174px;
 }
+.getIt {
+  position: relative;
+  line-height: 100%;
+}
+.button {
+  border-radius: 999px;
+  background-color: rgba(53, 79, 82, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 11px 18px;
+  align-items: center;
+  justify-content: center;
+}
 .hovertrue {
   cursor: pointer;
 }
 .smallButton {
   position: absolute;
   top: 0;
-  left: 327px;
+  left: 320px;
   border-radius: var(--br-8xs);
   overflow: hidden;
   display: flex;
@@ -21,6 +35,7 @@
   padding: var(--padding-base);
   align-items: center;
   justify-content: center;
+  font-family: var(--font-lato);
 }
 .signUpPageItem {
   position: absolute;
@@ -83,9 +98,21 @@
   position: absolute;
   top: 275px;
   left: 66px;
+  font-size: 15px;
   display: inline-block;
+  color: var(--color-lightgray-300);
+  text-align: center;
   width: 293px;
   height: 288px;
+}
+.signUp {
+  position: absolute;
+  top: 43px;
+  left: 151px;
+  font-size: var(--font-size-11xl);
+  line-height: 100%;
+  font-weight: 800;
+  color: var(--color-darkslategray);
 }
 .signUpPage {
   position: relative;
@@ -93,8 +120,8 @@
   width: 430px;
   height: 932px;
   overflow: hidden;
-  text-align: center;
-  font-size: 15px;
-  color: var(--color-lightgray-300);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
   font-family: var(--font-roboto);
 }

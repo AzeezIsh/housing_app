@@ -17,6 +17,10 @@ const muiTheme = createTheme({
     primary: { main: "rgba(53,79,82,1)", contrastText: "rgba(202,210,197,1)" },
     secondary: { main: "rgba(202,210,197,1)" },
     text: { primary: "rgba(202,210,197,0.87)" },
+    error: {
+      main: "rgba(202,210,197,0.2)",
+      contrastText: "rgba(202,210,197,1)",
+    },
   },
 });
 

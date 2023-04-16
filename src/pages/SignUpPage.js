@@ -1,18 +1,18 @@
 import { useCallback } from "react";
-import { Button, TextField, Icon } from "@mui/material";
+import { TextField, Button, Icon } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import styles from "./SignUpPage.module.css";
 
 const SignUpPage = () => {
   const navigate = useNavigate();
 
-  const onHovertrueClick = useCallback(() => {
+  const onHovertrueContainerClick = useCallback(() => {
     navigate("/login-page");
   }, [navigate]);
 
-  const onHovertrueContainerClick = useCallback(() => {
-    // Please sync "Home page" to the project
-  }, []);
+  const onHovertrueContainer1Click = useCallback(() => {
+    navigate("/home-page");
+  }, [navigate]);
 
   const onBackButtonIconClick = useCallback(() => {
     navigate("/");
@@ -22,15 +22,11 @@ const SignUpPage = () => {
     <div className={styles.signUpPage}>
       <div className={styles.signUpPageChild} />
       <div className={styles.smallButton}>
-        <Button
-          className={styles.hovertrue}
-          variant="contained"
-          color="primary"
-          size="small"
-          onClick={onHovertrueClick}
-        >
-          Sign in
-        </Button>
+        <div className={styles.hovertrue} onClick={onHovertrueContainerClick}>
+          <div className={styles.button}>
+            <b className={styles.getIt}>Sign in</b>
+          </div>
+        </div>
       </div>
       <div className={styles.signUpPageItem} />
       <div className={styles.rectangleParent}>
@@ -43,7 +39,7 @@ const SignUpPage = () => {
           label="Username"
           placeholder="Username"
           size="medium"
-          margin="none"
+          margin="dense"
         />
         <TextField
           className={styles.frameItem}
@@ -69,11 +65,11 @@ const SignUpPage = () => {
         />
       </div>
       <div className={styles.eyeCatchingButton}>
-        <div className={styles.hovertrue1} onClick={onHovertrueContainerClick}>
+        <div className={styles.hovertrue1} onClick={onHovertrueContainer1Click}>
           <Button
             sx={{ width: 298 }}
             variant="contained"
-            color="primary"
+            color="error"
             endIcon={<Icon>arrow_forward_sharp</Icon>}
           >
             Continue
@@ -89,6 +85,7 @@ const SignUpPage = () => {
       <b className={styles.pleaseSignUp}>
         Please sign up for an account with a valid email, username, and password
       </b>
+      <div className={styles.signUp}>Sign Up</div>
     </div>
   );
 };

@@ -1,0 +1,57 @@
+.aboutPageChild {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightgray-100);
+  width: 430px;
+  height: 174px;
+}
+.backButtonIcon {
+  position: absolute;
+  top: 22.45px;
+  left: 18.49px;
+  width: 30.52px;
+  height: 22.09px;
+  cursor: pointer;
+}
+.aboutUs {
+  position: absolute;
+  top: 33px;
+  left: 153px;
+  line-height: 100%;
+  font-weight: 800;
+}
+.aboutPageItem {
+  position: absolute;
+  top: 291px;
+  left: 27px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-lightgray-200);
+  width: 376px;
+  height: 430px;
+}
+.loremIpsumDolor {
+  position: absolute;
+  top: 301px;
+  left: 53px;
+  font-size: var(--font-size-xl);
+  line-height: 100%;
+  display: inline-block;
+  font-family: var(--font-lato);
+  color: rgba(202, 210, 197, 0.87);
+  text-align: center;
+  width: 323px;
+  height: 393px;
+}
+.aboutPage {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 430px;
+  height: 932px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-roboto);
+}

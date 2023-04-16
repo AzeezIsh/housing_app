@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 body {
@@ -10,9 +11,13 @@ body {
   /* fonts */
   --font-roboto: Roboto;
   --font-inter: Inter;
+  --font-lato: Lato;
 
   /* font sizes */
   --font-size-sm: 14px;
+  --font-size-11xl: 30px;
+  --font-size-xl: 20px;
+  --font-size-3xs: 10px;
 
   /* Colors */
   --color-darkslategray: #2f3e46;

@@ -78,6 +78,17 @@
   width: 153px;
   height: 95px;
 }
+.login {
+  position: absolute;
+  top: 39px;
+  left: 177px;
+  font-size: var(--font-size-11xl);
+  line-height: 100%;
+  font-weight: 800;
+  font-family: var(--font-roboto);
+  color: var(--color-darkslategray);
+  text-align: left;
+}
 .loginPage {
   position: relative;
   background-color: var(--color-darkslategray);

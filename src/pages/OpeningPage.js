@@ -30,7 +30,7 @@ const OpeningPage = () => {
               className={styles.button}
               sx={{ width: 300 }}
               variant="contained"
-              color="primary"
+              color="error"
               endIcon={<Icon>arrow_forward_sharp</Icon>}
               onClick={onButtonClick}
             >
