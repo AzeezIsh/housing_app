@@ -4,12 +4,14 @@ import './css/AboutUs.css';
 
 function App() {
   return (
-    <div className="main-div">
+    <>
       <h1>
         This is a Test!
       </h1>
-      
-    </div>
+      <div id='main-div'>
+        
+      </div>
+    </>
   )
 }
 
